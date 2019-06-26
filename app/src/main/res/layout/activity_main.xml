@@ -17,7 +17,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
+        app:srcCompat="@drawable/logo"
+        />
 
     <EditText
         android:id="@+id/editText"
@@ -32,7 +33,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
-        android:backgroundTint="@color/colorPrimary"/>
+        android:backgroundTint="#B80707"/>
 
     <EditText
         android:id="@+id/editText2"
@@ -47,7 +48,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText"
         android:hint="Password"
-        android:backgroundTint="@color/colorPrimary"/>
+        android:backgroundTint="#B80707"/>
 
     <Button
         android:id="@+id/button"
@@ -56,25 +57,26 @@
         android:layout_marginStart="32dp"
         android:layout_marginTop="68dp"
         android:layout_marginEnd="32dp"
+        android:background="@drawable/button_ronunded_border"
         android:text="check in"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2"
-        android:background="@drawable/button_ronunded_border"/>
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnInicio"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
+        android:background="@drawable/buton_rounded"
+        android:backgroundTint="#B80707"
         android:text="Login"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2"
-        android:background="@drawable/buton_rounded"/>
+        app:layout_constraintTop_toBottomOf="@+id/editText2" />
 
     <ImageButton
         android:id="@+id/imageButton"
