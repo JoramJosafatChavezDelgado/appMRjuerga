@@ -18,7 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/logo"
-        />
+        android:contentDescription="TODO" />
 
     <EditText
         android:id="@+id/editText"
@@ -51,7 +51,7 @@
         android:backgroundTint="#B80707"/>
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/registrar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
